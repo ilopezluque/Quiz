@@ -1,3 +1,13 @@
+<label>Área temática:</label>
+  <select name="quiz[tema]" id="tema" value="<%= quiz.tema %>">
+    <option value=Otro selected >Otro</option>
+    <option name="Humanidades" value="Humanidades">Humanidades</option>
+    <option name="Ciencia" value="Ciencia">Ciencia</option>
+    <option name="Tecnologia" value="Tecnologia">Tecnologia</option>
+    <option name="Deportes" value="Deportes">Deportes</option>
+    <option name="Geografia" value="Geografia">Geografia</option>
+ </select></br></br>
+
 <label for="preg" class="rem">Pregunta:</label>
 <input type="text" id="preg" name="quiz[pregunta]" placeholder="<%= quiz.pregunta %>"/> <p>
 <label for="resp" class="rem">Respuesta:</label>
